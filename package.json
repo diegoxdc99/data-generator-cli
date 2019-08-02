@@ -1,0 +1,18 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data-generator.js",
+  "bin": "data-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.16",
+    "moment": "^2.24.0"
+  },
+  "pkg": { "assets": "node_modules/blessed/**/*" }
+}
